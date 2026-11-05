@@ -1,0 +1,15 @@
+package bg.sofia.uni.fmi.mjt.parking.vehicle;
+
+public class Jeep extends Car {
+
+    private static final int SURCHARGE = 20;
+
+    public Jeep(LicensePlate licensePlate) {
+        super(licensePlate);
+    }
+
+    @Override
+    public int getSurcharge() {
+        return SURCHARGE;
+    }
+}
